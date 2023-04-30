@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator || Generate image according to your Topic, width and height</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="./img/initial-g-monogram-letter-alphabet-with-camera-icon-photography-logo-vector-illustration_565585-1582-removebg-preview.png">
+</head>
+
+<body>
+    <nav id="header">
+        <div class="first">
+            <img src="/img/initial-g-monogram-letter-alphabet-with-camera-icon-photography-logo-vector-illustration_565585-1582-removebg-preview.png"
+                alt="logo" id="img">
+            <h1 id="heading">imgGen :</h1>
+        </div>
+        <div class="second">
+            <button class="btnn">Login</button>
+            <button class="btnn">Sign Up</button>
+        </div>
+    </nav>
+    <div class="select">
+        <div class="question">
+            <div class="main">
+            <input type="text" placeholder="Type your Genre" id="genre" title="Type Your genre">
+            <input type="text" placeholder="Type your Topic" id="input">
+            <input type="text" placeholder="Width" id="width">
+            <input type="text" placeholder="Height" id="height">
+            </div>
+            <button onclick="generate()">Generate</button>
+        </div>
+    </div>
+    <div class="img" id="first">
+        <img src="https://source.unsplash.com/200x200/?dubai,burjKhalifa" class="myImg">
+        <img src="https://source.unsplash.com/200x200/?pakistan,lahore" class="myImg">
+        <img src="https://source.unsplash.com/200x200/?gym,fitness" class="myImg">
+    </div>
+    <div class="img2" id="sec">
+        <img src="https://source.unsplash.com/200x200/?romantic,scenery" class="myImg">
+        <img src="https://source.unsplash.com/200x200/?flowers,lily" class="myImg">
+        <img src="https://source.unsplash.com/200x200/?image,random" class="myImg">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
